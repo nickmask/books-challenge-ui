@@ -1,14 +1,14 @@
 # Capital On tap Frontend Challenge v1
 
-This is our challenge for the front-end developer position at [Capital On Tap](https://capitalontap.com/en).
+This is our challenge for the front-end developer position at [Capital on Tap](https://capitalontap.com/en).
 
-You're probably already participating in our hiring process, but if you stumble here by accident, read the document to the end and if you are interested, you can start the process from here.
+You're probably here due to participating in our hiring process. If you stumbled here by accident and if you are interested, you can start the process from here.
 
 If you are not a developer, you can have a look at our other opportunities at our [careers page](https://capitalontap.com/en/careers).
 
 ## About the challenge
 
-This is a challenge, not a test, so feel free to try different approaches to solve it.
+This is a challenge, not a test. You are welcome to solve it in any way you see fit. We won't limit your choice of tools or libraries although you should make choices that suit your needs.
 
 What we expect to learn from you with this challenge:
 
@@ -16,32 +16,33 @@ What we expect to learn from you with this challenge:
 - How you think and solve problems.
 - How you communicate.
 
-What we expect that you learn from us:
-
-- How we work as a team.
-- Have a close look at some of the problems we face daily.
-
-## Considerations
-
-- We won't limit your choice of tools or libraries. But make choices that suits your needs. There's no need to use a bazooka to kill an ant but the point of the challenge is to evaluate your skills.
-
 ## Instructions
 
-Consider the ficticious company "Books on Tap" that sells books online. We created a very simple api where you can query and create books.
+Consider the ficticious company "Books on Tap" that sells books online. We have created a very simple api where you can query books.
 
 Api url and docs - https://booksontap.azurewebsites.net/
 
-We have built a simple project based on Create-React-App for ease of development and not having to worry about configs. Feel free to create your own project structure if you so please.
+We have built a simple project based on Create-React-App for you to use to get started. Feel free to create your own project structure if you so please.
 
 You can start by cloning this repo to your machine.
 
-**When you are done, please send us back the source and any other items in a zip file.**
+There are no time limits although we recommend spending around 3 hours creating your solution.
 
-### Tasks:
+**When you are done, either send us back the source and any other items in a zip file or send us a link to your repo.**
 
-- Query api to retrieve books and list them
-- When clicking in one of the listed books, should navigate to a page where it can be seen more details of the book - for example if book is available or not and who is the author.
+#### Task
 
-Feel free to build the UI however you please.
+You have been asked to create a website that markets and sells books.
+
+- Visitors to the site should see a well presented list of the available books. You can choose how much information to display for each item in the list.
+- They should be able select an individual book. This action should navigate them to a page containing more details on the book.
+- The book details page should show whether the book is available to buy and any extra details that you think are relevant.
+
+##### Extra marks
+
+- Add a shopping basket to the site and an "Add to basket" button on the book details page(s).
+- The visitor should be able to add and remove books from this basket.
+- Reasonable rules must be followed when adding items to the basket. For example, you cannot add more books than there are stock.
+- The site must work nicely on various screen sizes.
 
 Extra points for creativity ✨
