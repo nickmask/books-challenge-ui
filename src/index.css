@@ -2,4 +2,29 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #fff;
+}
+
+main {
+  margin-top: 10px;
+  grid-area: content;
+}
+
+footer {
+  grid-area: footer;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

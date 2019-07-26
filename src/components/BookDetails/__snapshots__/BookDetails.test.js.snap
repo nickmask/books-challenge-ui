@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookDetails should render correctly 1`] = `
+<div
+  className="container"
+>
+  <div>
+    <h1
+      aria-label="Book title"
+      className="pageHeader"
+    >
+      A Life Changed
+    </h1>
+    <hr
+      className="separator"
+    />
+    <img
+      alt="Cover of A Life Changed book"
+      className="bookCover"
+      src="https://images.unsplash.com/photo-1496484805162-42c00f79cdce?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+    />
+    <div>
+      <p
+        aria-label="Book author"
+      >
+        John Doe
+      </p>
+      <p
+        aria-label="Book description"
+      >
+        Nulla sunt sunt pariatur officia et esse fugiat proident est. Ad laboris ullamco adipisicing nisi in ex. Magna voluptate culpa velit exercitation nisi ipsum est do.
+      </p>
+      <p
+        aria-label="Book price"
+      >
+        £
+        10
+      </p>
+      <p
+        aria-label="Stock amount"
+      >
+        Available stock: 1
+      </p>
+      <button
+        disabled={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        Add to cart
+      </button>
+      <button
+        className="buyNow"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Buy now
+      </button>
+    </div>
+  </div>
+</div>
+`;

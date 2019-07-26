@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart should render correctly 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="pageHeader"
+  >
+    Cart
+  </h1>
+  <hr
+    className="separator"
+  />
+  <div>
+    <div
+      key="c1dc42ab-548f-4f96-8350-2f56303d75320"
+    >
+      <div
+        className="cartItem"
+      >
+        <img
+          alt="Cover of undefined book"
+          className="bookCover"
+          src="https://images.unsplash.com/photo-1496484805162-42c00f79cdce?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+        />
+        <div
+          className="detailsContainer"
+        >
+          <div
+            className="details"
+          >
+            <h2
+              aria-label="Book title"
+            />
+            <p
+              aria-label="Book author"
+            >
+              John Doe
+            </p>
+            <p
+              aria-label="Book price"
+            >
+              £
+              10
+            </p>
+          </div>
+          <div>
+            <button
+              data-index={0}
+              onClick={[Function]}
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr
+        className="separator"
+      />
+    </div>
+    <div
+      key="c1dc42ab-548f-4f96-8350-2f56303d75321"
+    >
+      <div
+        className="cartItem"
+      >
+        <img
+          alt="Cover of undefined book"
+          className="bookCover"
+          src="https://images.unsplash.com/photo-1496484805162-42c00f79cdce?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+        />
+        <div
+          className="detailsContainer"
+        >
+          <div
+            className="details"
+          >
+            <h2
+              aria-label="Book title"
+            />
+            <p
+              aria-label="Book author"
+            >
+              John Doe
+            </p>
+            <p
+              aria-label="Book price"
+            >
+              £
+              10
+            </p>
+          </div>
+          <div>
+            <button
+              data-index={1}
+              onClick={[Function]}
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr
+        className="separator"
+      />
+    </div>
+    <div
+      className="buy"
+    >
+      <p>
+        Total price: £
+      </p>
+      <div
+        className="buyButtonCotainer"
+      >
+        <span>
+          <button
+            onClick={[Function]}
+            type="submit"
+          >
+            Buy all
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

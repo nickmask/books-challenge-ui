@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<BrowserRouter>
+  <div
+    className="container"
+  >
+    <header
+      className="header"
+    >
+      <span>
+        Books on tap
+      </span>
+    </header>
+    <nav
+      className="nav"
+    >
+      <Switch>
+        <Route
+          exact={true}
+          path="/"
+          render={[Function]}
+        />
+        <Route
+          path="/book"
+          render={[Function]}
+        />
+        <Route
+          path="/cart"
+          render={[Function]}
+        />
+      </Switch>
+      <Link
+        to="/cart"
+      >
+        <div
+          className="cart"
+        >
+          <p
+            aria-label="Total cart value"
+          >
+            £0
+          </p>
+          <hr
+            className="seperator"
+          />
+          <p
+            aria-label="Number of items in cart"
+            className="cartCount"
+          >
+            <FaShoppingCart
+              className="cartIcon"
+              color="#fff"
+            />
+            <span>
+              0
+            </span>
+          </p>
+        </div>
+      </Link>
+    </nav>
+    <main>
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          exact={true}
+          path="/book/:title/:id"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/cart"
+          render={[Function]}
+        />
+        <Route
+          render={[Function]}
+        />
+      </Switch>
+    </main>
+    <footer />
+  </div>
+</BrowserRouter>
+`;

@@ -1,0 +1,29 @@
+.container {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 0 0;
+  background: #fff;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.bookCover {
+  object-fit: cover;
+  width: 200px;
+  height: 305px;
+}
+
+.buyNow {
+  margin-left: 20px;
+}
+
+.separator {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+.pageHeader {
+  margin-bottom: 0;
+}

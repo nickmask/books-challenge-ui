@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookCard should render correctly 1`] = `
+<Link
+  to="/book/A-Life-Changed/c1dc42ab-548f-4f96-8350-2f56303d7532"
+>
+  <div
+    className="card"
+  >
+    <img
+      alt="Cover of A Life Changed book"
+      className="thumbnail"
+      src="https://images.unsplash.com/photo-1496484805162-42c00f79cdce?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+    />
+    <h2
+      aria-label="Book title"
+      className="title"
+    >
+      A Life Changed
+    </h2>
+    <p
+      aria-label="Book author"
+      className="author"
+    >
+      John Doe
+    </p>
+    <p
+      aria-label="Book price"
+      className="price"
+    >
+      £
+      10
+    </p>
+    <div
+      className="stock"
+    >
+      Out of stock
+    </div>
+  </div>
+</Link>
+`;
